@@ -60,9 +60,8 @@ public class FindRepeatedDNASequence
   public static void main( String[] args )
   {
     FindRepeatedDNASequence s = new FindRepeatedDNASequence();
-//		System.out.println(s
-//				.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
-    System.out.println( s
-      .findRepeatedDnaSequences( "AAAAAAAAAAAA" ) );
+    // System.out.println(s
+    // .findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+    System.out.println( s.findRepeatedDnaSequences( "AAAAAAAAAAAA" ) );
   }
 }
