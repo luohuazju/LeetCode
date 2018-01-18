@@ -1,5 +1,4 @@
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * // This is the interface that allows for creating nested lists. // You should
@@ -17,21 +16,26 @@ import java.util.List;
  * nested list // Return null if this NestedInteger holds a single integer
  * public List<NestedInteger> getList(); }
  */
-public class NestedIterator implements Iterator<Integer> {
+public class NestedIterator implements Iterator<Integer>
+{
 
-	public NestedIterator(List<NestedInteger> nestedList) {
+//  public NestedIterator( List<NestedInteger> nestedList )
+//  {
+//
+//  }
 
-	}
+  @Override
+  public Integer next()
+  {
+    return 0;
 
-	@Override
-	public Integer next() {
+  }
 
-	}
-
-	@Override
-	public boolean hasNext() {
-
-	}
+  @Override
+  public boolean hasNext()
+  {
+    return true;
+  }
 }
 
 /**
